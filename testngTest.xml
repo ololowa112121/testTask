@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" verbose="5">
+
+    <listeners>
+        <listener class-name="controllers.Listener"/>
+    </listeners>
+
+    <test name="Send Mail">
+        <classes>
+            <class name="e2e.tests.MailTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
